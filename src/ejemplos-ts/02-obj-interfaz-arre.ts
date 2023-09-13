@@ -25,3 +25,21 @@ const alumno:Alumno={
 }
 
 console.log(alumno.nombre);
+
+//SE TIENE EL SIGUIENTE ARREGLO CON LOS SIGUIENTES DATOS
+let mascotas:string[]= ['perro', 'gato', 'perico']
+
+//HACE UPDATE AL NUMERO DE ELEMENTO INDICADO DE UN ARREGLO POR EL NUEVO VALOR ESPECIFICADO
+mascotas[1] = 'perico verde';
+
+//AGREGA UN NUEVO ELEMENTO CON UN ID NUEVO AL ARREGLO 
+mascotas.push('gato dos');
+
+//
+console.table(mascotas);
+
+//
+let tem:(string|number)[] = [];
+tem.push('RCR');
+tem.push(34);
+
