@@ -33,9 +33,14 @@ console.log(`El volumen actual es: ${volumen}`);
 console.log(`Los segundos son: ${segundo}`);
 console.log(`El cantante es: ${autor}`);
 
-
-
-
 //TYPESCRIPT AL REALIZAR UNA TRANSPORTACION A JAVASCRIPT, NO PERMITE UTILIZAR
 //UNA VARIABLE YA UTILIZADA DEL MISMO ARCHIVO O DE OTRO QUE YA CONTENGA UN VALOR
 //let mascotas:string[]=[]
+
+const colores:string[]=['blue', 'red', 'green', 'violet'];
+console.log(`Color 1: ${colores[0]}`);
+console.log(`Color 2: ${colores[1]}`);
+console.log(`Color 3: ${colores[2]}`);
+
+const[a,,,b]=colores;
+console.log(`Color 2: ${b}`);
